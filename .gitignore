@@ -1,3 +1,13 @@
+# Local API keys and secret configuration
+.env
+.env.*
+!.env.example
+*api_key*
+*.key
+
+# Local conversation history and runtime files
 .nyx_memory.json
 *.log
+*.tmp
 /tmp/
+.DS_Store
