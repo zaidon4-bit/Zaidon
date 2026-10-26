@@ -17,10 +17,10 @@ if [[ -z "$NYX_API_KEY" ]]; then
 fi
 
 API_KEY="$NYX_API_KEY"
-AI_NAME="wormgpt_lite v:1.0"
+AI_NAME="alpha 2.7 mini"
 CREATOR="THE BLACK PIRATS"
-PRIMARY_MODEL="gemini-2.5-flash"
-URL_BASE="https://generativelanguage.googleapis.com/v1beta/models"
+PRIMARY_MODEL="free-gemini-2.5-pro"
+URL_BASE="https://api.odirouter.com/v1"
 MEMORY_FILE="$HOME/.nyx_memory.json"
 TEMP_DIR="/tmp/nyx_session_$$"
 mkdir -p "$TEMP_DIR"
